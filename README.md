@@ -6,10 +6,18 @@ Roleta russa do bash. Jogue em containers, ou nos servers de produção. Cada um
 
 ### Jogue em containers
 
+#### Build
+
 ```bash
 docker build -t roleta .
 ```
 
 ```bash
 docker run -it roleta
+```
+
+#### Ooou
+
+```bash
+ docker run -it msfidelis/roleta-russa
 ```
