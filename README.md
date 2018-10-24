@@ -21,3 +21,26 @@ docker run -it roleta
 ```bash
  docker run -it msfidelis/roleta-russa
 ```
+
+
+As possibilidades são 
+
+```
+*Click*
+```
+
+Ou... 
+
+
+```
+*Bang!*
+
+*BANG!!!*
+rm: can't remove '/proc/fb': Operation not permitted
+rm: can't remove '/proc/fs/xfs/xqm': Read-only file system
+rm: can't remove '/proc/fs/xfs/stat': Read-only file system
+rm: can't remove '/proc/fs/xfs/xqmstat': Read-only file system
+rm: can't remove '/proc/fs/xfs': Read-only file system
+
+....
+```
